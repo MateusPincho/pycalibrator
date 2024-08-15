@@ -1,0 +1,14 @@
+ideia inicial: 
+
+Calibration_Mocap/
+├── docs/
+├── src/
+│   ├── __init__.py
+│   ├── calibration.py
+│   ├── image_generation.py
+├── notebooks/
+├── tests/
+├── scripts/
+├── requirements.txt
+├── setup.py
+└── README.md
