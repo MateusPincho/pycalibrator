@@ -3,12 +3,21 @@ ideia inicial:
 Calibration_Mocap/
 ├── docs/
 ├── src/
-│   ├── __init__.py
-│   ├── calibration.py
-│   ├── image_generation.py
-├── notebooks/
+├── examples/
 ├── tests/
-├── scripts/
 ├── requirements.txt
 ├── setup.py
 └── README.md
+
+dentro de src/ :
+src/
+├── generator.py  ---> contém as funções usadas para o script de geração de imagens
+├── camera_model.py ---> contém a classe de Modelo de Câmera para visualização
+├── calibrator.py ---> contém a classe Calibrator, responsável por performar a calibração
+├── image_generation.py ---> script de geração de imagens para calibração
+├── camera_calibration.py ---> script para performar a calibração de câmera geral
+├── utils.py ---> armazena funções matemáticas e de transformações rígidas
+
+examples/
+├── image_generation.ipynb
+├── analyse_camera_calibration.ipynb
